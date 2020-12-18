@@ -81,7 +81,6 @@ while choice != 2:
             answer = input('\nDigite o produto que você deseja comprar :\n'
                        '(Digite SAIR para terminar)').capitalize()
             for nome in nomeDict:
-                print(nome)
                 if answer in nome.keys():                    
                     cesta.append(answer)
                     qnty = int(input('Digite a quantidade do produto:'))
